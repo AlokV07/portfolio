@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <!-- aos css cdn link -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+    <style>
+       
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    /* background-color: antiquewhite; */
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    /* background-color: red; */
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 50px;
+    color: #7f00ff;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a , .links a:hover{
+    color: #7f00ff;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+/* About */
+
+.AboutOne {
+    height: 100%;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info p {
+    font-size: 20px;
+    margin-top: 50px;
+    color: #3d535f;
+}
+
+.AboutOne h1 {
+    font-size: 50px;
+    color: #7f00ff;
+}
+
+.AboutOne #imgleft{
+    margin-left: 900px;
+    margin-top: -160px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Alok Verma<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="/kalua anim folio/index.html">home</a></li>
+                <li><a href="/kalua anim folio/about.html">about</a></li>
+                <li><a href="/kalua anim folio/skills.html">skills</a></li>
+                <li><a href="/kalua anim folio/projects.html">projects</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/alokverma-07102002/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/AlokV_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/AlokV07" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="AboutOne">
+            <div class="image"><img src="./3d-img/life-man.png" alt=""></div>
+            <div class="info">
+
+                <h1>About &nbsp;:-</h1>
+                
+                <p>I am pursuing Software Engineering from United College Of
+                    Engineering And Research, Greater Noida. <br> Strong creative and
+                    analytical skills. <br> I am a keen, hard working, reliable and excellent time
+                    keeper</p>
+                
+                    <p>I love to spend time with my laptop to learn new skills or new programming languages.<br>
+                        I keep trying to update or introduce new technologies in this era.<br>
+                        I am self taught programmer and trying to give my 100%.</p>
+                    
+            <div><img src="./3d-img/man-thinking.png" alt="" id="imgleft"></div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

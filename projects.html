@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+       
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    /* background-color: antiquewhite; */
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    /* background-color: red; */
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 50px;
+    color: #7f00ff;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a , .links a:hover{
+    color: #7f00ff;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+/* project */
+
+.proContainer {
+    height: 100%;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div #topimg {
+    float: right;
+}
+
+div #topimg img {
+    height: 200px;
+    width: 200px;
+    /* margin-top: 10px; */
+}
+
+.project h1 {
+    font-size: 35px;
+    color: #7f00ff;
+    margin-top: -70px;
+    margin-left: -95px;
+}
+
+.project #pic1 img{
+    height: 200px;
+    width: 250px;
+    margin-left: -65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project #pic2 img{
+    height: 220px;
+    width: 300px;
+    margin-left: -120px;
+    /* margin-top: 20px; */
+}
+
+div#bottomImg img {
+    height: 190px;
+    width: 280px;
+    margin-top: 20px;
+    margin-left: -50px;
+    margin-bottom: 20px;
+}
+
+h4 {
+ color: #3d535f;   
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Alok Verma<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="/kalua anim folio/index.html">home</a></li>
+                <li><a href="/kalua anim folio/about.html">about</a></li>
+                <li><a href="/kalua anim folio/skills.html">skills</a></li>
+                <li><a href="/kalua anim folio/projects.html">projects</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/alokverma-07102002/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/AlokV_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/AlokV07" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+        
+        <div id="topimg"><img src="./3d-img/project.png" alt=""></div>
+        
+        <div class="proContainer">
+            <div class="project">
+                <h1>Projects &nbsp;:-</h1>
+                
+                <div id="pic1"><img src="./3d-img/workout.gif" alt="">
+                    <div class="headingone">
+                        <h4>Fitness Website</h4></div> 
+                    </div>
+                    <div id="pic2"><img src="./3d-img/notes.gif" alt="">
+                        <div class="headingtwo">
+                            <h4>Notes Website</h4>
+                        </div>
+                    </div>    
+                </div>
+                
+                <div class="photo" id="bottomImg"><img src="./3d-img/ecom.gif" alt="">
+                    <div class="headingthree">
+                        <h4>Ecommerce Website </h4>
+                    </div>
+                    <div id="row2"><img src="./3d-img/foodg.gif" alt="">
+                        <div class="headingfour">
+                            <h4>Food Website</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo" id="bottomImg"><img src="./3d-img/library2.gif" alt="">
+                    <div class="headingthree">
+                        <h4>College Library Website </h4>
+                    </div>
+                    <div id="row2"><img src="./3d-img/portal.gif" alt="">
+                        <div class="headingfour">
+                            <h4>Job Portal</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

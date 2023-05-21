@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+       
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    /* background-color: antiquewhite; */
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 80px;
+    line-height: 80px;
+    z-index: 111;
+    /* background-color: red; */
+}
+.logo {
+    display: flex;
+    font-size: 40px;
+    font-weight: 800;
+    color: #3d535f;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+b{
+    font-size: 50px;
+    color: #7f00ff;
+}
+
+.navItems {
+    display: flex;
+}
+
+.navItems li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+.navItems li a {
+    font-size: 25px;
+    color: #3d535f;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navItems li:hover a , .links a:hover{
+    color: #7f00ff;
+}
+
+.links a {
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+.Skill {
+    height: 100%;
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.SkillInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SkillInfo h1 {
+    margin-top: -400px;
+    margin-left: -300px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    color: #7f00ff;
+
+}
+
+.SkillInfo ul li {
+    font-size: 25px;
+    color: #3d535f;
+}
+
+.Skill #pic1 {
+    margin-right: 160px;
+    margin-left: -300px;
+    margin-top: 40px;
+}
+
+.Skill #pic2 img {
+    height: 250px;
+    float: right;
+    margin-top: -200px;
+    margin-right: -320px;
+}
+
+div #pic4 {
+    margin-top: 20px;
+    margin-left: 20px;    
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Alok Verma<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="/kalua anim folio/index.html">home</a></li>
+                <li><a href="/kalua anim folio/about.html">about</a></li>
+                <li><a href="/kalua anim folio/skills.html">skills</a></li>
+                <li><a href="/kalua anim folio/projects.html">projects</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/alokverma-07102002/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/AlokV_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/AlokV07" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+            
+            <div id="pic4"> <img src="./3d-img/work-place-with-laptop.png" alt="" > </div>
+            
+            <div class="Skill">
+                
+                <div id="pic1"><img src="./3d-img/man-notes.png" alt=""></div>
+                <div class="SkillInfo">
+
+                    <h1>My Skills &nbsp:-</h1>
+                    
+                    <ul>
+                        <li> HTML </li>
+                        <li> CSS </li>
+                        <li> JavaScript </li>
+                        <!-- <li> C Language </li> -->
+                        <li> React Js </li>
+                        <!-- <li> Angular Js </li>
+                        <li> Node Js </li> -->
+                        <li> Bootstrap </li>
+                        <li> Java </li>
+                        <!-- <li> Data Structure </li> -->
+                    </ul>
+
+                </div>
+                <div id="pic2"> <img src="./3d-img/man-chatting.png" alt=""> </div>
+            </div>
+        
+
+    </div>
+</body>
+</html>
